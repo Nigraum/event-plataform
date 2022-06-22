@@ -1,6 +1,16 @@
+import { Header } from "./components/Header"
+import { Lesson } from "./components/Lesson"
+import { Sidebar } from "./components/Sidebar"
+import { Video } from "./components/Video"
+
 function App() {
   return (
-    <h1 className="text-5xl font-bold text-violet-500">Hello world</h1>
+    <div>
+      <Header/>
+      <Sidebar/>
+      <Lesson/>
+      <Video/>
+    </div>
   )
 }
 
