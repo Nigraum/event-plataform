@@ -1,15 +1,9 @@
-import { Header } from "./components/Header"
-import { Lesson } from "./components/Lesson"
-import { Sidebar } from "./components/Sidebar"
-import { Video } from "./components/Video"
+import { Event } from "./styles/Event"
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Sidebar/>
-      <Lesson/>
-      <Video/>
+      <Event/>
     </div>
   )
 }
