@@ -19,6 +19,19 @@ const GET_LESSON_BY_SLUG_QUERY = gql`
 }
 `
 
+interface GetLessonBySlugResponse {
+  lesson: {
+    title: string;
+    videoId: string;
+    description: string;
+    teacher: {
+      bio: string;
+      avatarURL: string;
+      name: string;
+    }
+  }
+}
+
 interface VideoProps {
   lessonSlug: string;
 }
