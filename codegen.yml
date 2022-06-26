@@ -3,7 +3,7 @@ schema: https://api-sa-east-1.graphcms.com/v2/cl4pdipyx1rf301xkfhdmhy4k/master
 documents: './src/graphql/**/*.graphql'
 
 generates:
-  ./src/generated.ts:
+  ./src/graphql/generated.ts:
     plugins:
       - typescript
       - typescript-operations
